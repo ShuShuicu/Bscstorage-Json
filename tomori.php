@@ -14,6 +14,10 @@ header('Content-Type: application/json');
 error_reporting(E_ALL);
 ini_set('display_errors', 0);
 
+// 写入key&secret
+define("BSC_KEY", "");
+define("BSC_SECRET", "");
+
 try {
     // 引入 AWS SDK
     require 'aws.phar';
@@ -48,8 +52,8 @@ try {
         'endpoint' => 'https://ss.bscstorage.com',
         'use_path_style_endpoint' => true,
         'credentials' => [
-            'key' => '',
-            'secret' => '',
+            'key' => BSC_KEY,
+            'secret' => BSC_SECRET,
         ],
         'region' => 'us-east-1',
         'version' => 'latest',
