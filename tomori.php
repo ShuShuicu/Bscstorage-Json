@@ -28,6 +28,7 @@ try {
         mkdir($cacheDir, 0755, true); // 创建目录并设置权限
     }
 
+    // 根据参数输出目录文件
     $paramMapping = [
         'All' => '/'
     ];
