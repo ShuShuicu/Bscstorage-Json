@@ -1,6 +1,6 @@
 <?php
 /**
- * Bscstorage Picture Json
+ * Bscstorage Json
  * PHP 白山云存储输出Json数据
  * @author 鼠子(Tomoriゞ)
  * @link https://space.bilibili.com/435502585
